@@ -1,0 +1,952 @@
+html {
+    font-size: 16px;
+    height: 100vh;
+    /*    transition: all 1s ease;*/
+    /*margin:0px;*/
+    /*	overflow: scroll;*/
+}
+
+/*Main*/
+body {
+    font-family: "dunbar-text", sans-serif;
+    /*  font-weight: 300;*/
+    background-color: black;
+    overscroll-behavior: none;
+    margin: 0px;
+    transition: all 0.5s ease;
+}
+
+.container_fs {
+    width: 100%;
+    height: 100vh;
+}
+
+.box {
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+.button {
+    background-color: green;
+}
+
+.logo {
+    width: 30vw;
+    margin-top: 475px;
+
+}
+
+
+/*Page content*/
+.background {
+    background-image: url(images/greensboro_pic.jpg);
+    height: 0vh;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*        background-color: black;*/
+    background-attachment: fixed;
+/*    filter: blur(1px);*/
+    /*    position: fixed;*/
+    /*    background-blend-mode: darken;*/
+    /*    z-index: -999999999;*/
+}
+
+.bar {
+    /*    height: 100vh;*/
+    /*    background-color:black;*/
+    /*    width: 25%;*/
+    /*    height: span;*/
+    /*    background-image: url(images/greensboro_pic.jpg);*/
+    /*    background-size:cover;*/
+    /*    background-repeat: no-repeat;*/
+    /*  background-position:center,left;*/
+    /*    background-position: -0vh, 0vw;*/
+    /*    background-position: right;*/
+    /*    transition: 2s;*/
+    /*    float: left;*/
+    position: fixed;
+    /*    padding-left: 2vw*/
+    /*    margin-left: 2v*/
+    /*    position: sticky;*/
+    /*    transition: all, 0s ease;*/
+    /*    display: inline-block;*/
+    /*    margin-right: 10px;*/
+    width: 7.8vw;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 0;
+    text-align: center;
+/*    z-index: -9999;*/
+
+}
+
+.content_b {
+
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 5px 0px 30px black inset;
+    margin-bottom: 0;
+    width: 86.vw;
+    height: fill;
+    margin-left: 8vw;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index:-9999;
+    backdrop-filter: blur(10px);
+/*    z-index: -999;*/
+/*    filter: blur(px);*/
+    /*    margin-right: 100vw;*/
+    /*    margin-right: 10*/
+/*    background-blend-mode:;*/
+}
+
+
+
+.bar h1 {
+    /*    size: 30vw;*/
+    font-size: 10vw;
+    /*    width: 100px;*/
+    font-weight: 900;
+    transform: rotate(-90deg);
+    padding: 0;
+    /*    margin: 0;*/
+    /*    text-align: center;*/
+    margin-top: 80vh;
+    margin-left: -1vw;
+    text-align: right;
+    z-index: 999;
+    transition: margin 0.1s ease;
+    /*    margin-right:-vw;*/
+    /*    color:slategray;*/
+    /*    opacity: 0.8;*/
+
+    /*    margin-bottom: -100px;*/
+
+}
+
+@media only screen and (max-width : 768px) {
+    .bar h1 {
+    
+    margin-top: 60vh;
+}
+}
+    @media only screen and (max-width : 1400px) {
+    .bar h1 {
+    
+    margin-top: 65vh;
+}
+    
+       
+}
+h1 {
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    line-height: 4.5vw;
+    padding-top: 35vh;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    margin-top: -5px;
+
+}
+
+.pagetext {
+    color: white;
+    /*    padding-left: 50px;*/
+    /*    padding-top: 0px;*/
+    float: left;
+    /*    padding-right: 8vw;*/
+    padding-left: 4vw;
+    /*    padding-right: 10vw;*/
+}
+
+.pagetext h2 {
+    font-weight: 700;
+    font-size: 3vw;
+    /*    line-height: 5vw;*/
+    /*  margin-bottom: 1rem;*/
+    color: white;
+    /*    margin-top:-5px;*/
+    /*        padding-right: 20vw;*/
+    /*    margin-left: 28vw;*/
+    /*    margin*/
+}
+
+.pagetext p {
+    color: darkgrey;
+    font-size: 1rem;
+    /*    margin-right: 20vw;*/
+    /*    float: left;*/
+    /*    margin-left: 28vw;*/
+}
+
+
+
+.footer{
+/*    background-color: red;*/
+    width:90.5vw;
+    height: 100px;
+    margin-left: -4vw;
+/*    float: left;*/
+    z-index: 9999999;
+/*    position: fixed;*/
+/*    position: fixed;*/
+    float: right;
+}
+@media only screen and (max-width : 768px) {
+    .footer{
+        width: 85vw;
+    }  
+}
+
+.footerlogo{
+    
+    width: 75px;
+    margin-top: 0;
+    z-index: 999999999999;
+    float: right;
+    margin-right: 15px;
+/*    position: absolute;*/
+    
+}
+.footericons{
+/*    color: white;*/
+    width: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+/*
+---------------------------
+HOME
+---------------------------
+*/
+
+
+.homebar {
+    height: 120%;
+    /*    width: 30%;*/
+    /*    height: span;*/
+/*    background-image: url(images/greensboro_pic.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  background-position:center,left;*/
+    background-position: -10vh, 0vw;
+    /*    background-position: right;*/
+    /*    transition: 2s;*/
+    float: left;
+    position: fixed;
+    /*    padding-left: 2vw*/
+    /*    margin-left: 2v*/
+    /*    position: sticky;*/
+    /*    transition: all, 0s ease;*/
+    /*    display: inline-block;*/
+    /*    margin-right: 10px;*/
+    width: 100%;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-position: left, top;
+    margin-top: -200px;
+    transition: all 0.5s;
+    z-index: -9999;
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.9) inset;
+    /*    backface-visibility: hidden*/
+
+
+}
+
+@media only screen and (max-width : 768px) {
+    .homebar {
+        background-position: -20vh;
+    }
+
+
+}
+
+
+/*
+---------------------------
+GALLERY
+---------------------------
+*/
+
+/*images*/
+.galimg {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    margin-bottom: 6px;
+    border-radius: 1px;
+    /*    margin-right: 30px;*/
+/*        height: 14vw;*/
+
+}
+
+
+@media only screen and (max-width : 768px) {
+    .galimg {
+        width: 70vw;
+        margin-left: 15px;
+        /*        margin-righ≥t: 100px;*/
+    }
+
+
+}
+
+.break{
+    height: 100px;
+    width: 10vw;
+}
+
+/*
+---------------------------
+ABOUT
+---------------------------
+*/
+
+.aboutcontent {
+    display: block;
+    margin-left: 10vw;
+    margin-right: 18vw;
+    /*     margin-top:0px;*/
+    /*    margin-top: -350px;*/
+
+}
+
+#aboutbar.bar h1{
+    margin-bottom: -10vw;
+/*    margin-top: 37vw;*/
+}
+/*
+@media only screen and (max-width : 768px) {
+    #aboutbar.bar h1{
+    margin-top: 10vw;
+} 
+    
+}
+@media only screen and (max-width : 1700px) {
+    #aboutbar.bar h1{
+    margin-top: 50vw;
+}
+}
+*/
+   
+
+#about.content {
+    float: left;
+    /*    padding-top: 30vh;*/
+    margin-left: 7.8vw;
+    padding-left: 10vw;
+    /*     margin-top:0px;*/
+    /*    margin-top: -110px;*/
+
+    /*    display: block;*/
+    /*    background-color: aqua;*/
+    /*    margin-right: 100vw;*/
+    /*    margin-left: 0;*/
+
+}
+
+
+/*text*/
+
+
+
+/*images*/
+
+.aboutlogo {
+    float: left;
+    display: block;
+    width: 25vw;
+    margin-top: 300px;
+    /*    margin-top: 0;*/
+    /*    margin-left:10vw;*/
+    /*    margin-bottom: 7px;*/
+    /*    margin-top: 150px;*/
+    /*    align-items: center;*/
+    /*    align-content:stretch;*/
+    /*    margin-right: 30px;*/
+    /*    height: 150px;*/
+    border-radius: 5px;
+
+}
+
+#about h2,
+#about p {
+    /*    font-size:2rem;*/
+    display: block;
+    float: left;
+    width: 25vw;
+    /*    margin-right: -10px;*/
+    /*    background-color: aqua;*/
+    margin-bottom: -10px;
+    /*    margin-top: 30vw;*/
+    margin-left: -2vw;
+    /*    margin-right:0;*/
+    /*    margin-top: -5px;*/
+}
+
+#about h2 {
+    margin-top: 300px;
+    font-size: 2vw;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+
+
+    .aboutlogo {
+        width: 60vw;
+        padding-top: 0;
+        margin-top: 10vw;
+        margin-left: 2vw;
+    }
+
+    #about h2,
+    #about p {
+        width: 60vw;
+        padding-top: 5vw;
+        margin-top: 0;
+        /*        margin-right: 3vw*/
+
+    }
+
+    #about h2 {
+        font-size: 6vw;
+        margin-top: 0;
+    }
+
+    .aboutcontent {
+        /*    height: 70vh;*/
+        margin-top: 0;
+    }
+}
+
+
+#about {
+    height: 100vh;
+    width: 82.2vw;
+    /*    margin-top: 0;*/
+}
+
+/*
+---------------------------
+CONTACT
+---------------------------
+*/
+#contact {
+    height:100vh;
+    width: 92vw;
+    /*    margin-top: 0;*/
+}
+form{
+    margin-left: 35vw;
+    margin-top: 30vh;
+    float: left;
+    
+}
+
+form p{
+    color:white;
+}
+
+.contactlogo{
+     width: 200px;
+    margin-top: 700px;
+/*    float: left;*/
+    z-index: 99999999;
+    margin-left: -30vw;
+/*    margin: 0;*/
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+---------------------------
+OTHER
+---------------------------
+*/
+
+/*Responsive Image*/
+.img_responsive {
+    width: 100%;
+    height: 370px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width : 768px) {
+
+    .img_responsive {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pagetext h2 {
+        font-size: 7vw;
+        margin-bottom: 0;
+    }
+
+    .pagetext p {
+        margin-top: 10vw;
+        font-size: 3vw;
+    }
+}
+
+
+/*Navigation*/
+
+.nav-collapse li {
+    /*        width: 10%;*/
+    /*color:blue;*/
+    /*    display: block;*/
+    /*    margin-top:10px;*/
+    /*    height: 5px;*/
+    /*    color:white;*/
+    text-align: right;
+    /*    margin-right: 1000px;*/
+
+
+}
+
+.nav-collapse{
+    z-index:9999;
+/*    backdrop-filter: blur(px);*/
+    
+}
+.nav-collapse a {
+    font-size: 2rem;
+    font-weight: 200;
+    /*  display: block;*/
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    /*  line-height: 40px;*/
+    letter-spacing: 2px;
+
+    display: inline-block;
+    /*    width: 150px;*/
+    /*    margin-right: 30px;*/
+    /*    text-align: right;*/
+    /*    margin-right: 80px;*/
+    padding-right: 10px;
+    /*    margin-right:10px;*/
+    border-right: 8px solid white;
+    z-index: 9999999999999;
+    
+
+
+}
+
+.nav-collapse li:hover a {
+    color: slategray;
+}
+
+.nav-collapse #homebox:hover a {
+    border-color: slategray;
+    /*    transition: all 0.5s;*/
+}
+
+.nav-collapse #gallerybox:hover a {
+    border-color: slategray;
+}
+
+.nav-collapse #aboutbox:hover a {
+    border-color: slategray;
+}
+
+.nav-collapse #contactbox:hover a {
+    border-color: slategray;
+}
+
+
+
+.nav-collapse.fixed ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-bottom: 0;
+    width: 300px;
+    transform: all 1s ease;
+    /*    transform: all 1s ease;*/
+    /*    background-color: aqua;*/
+
+}
+
+@media only screen and (max-width : 768px) {
+    .nav-collapse.fixed ul {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .8);
+        margin-top: 0px;
+        padding-top: 50px;
+        /*        transform: all 1s ease;*/
+
+    }
+}
+
+
+
+
+/*Toggle Styles*/
+
+.icon::before {
+    display: block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transition: all 1s ease;
+}
+
+.icon.nav-toggle {
+    font: var(--fa-font-solid);
+
+    user-select: none;
+    text-decoration: none;
+    text-indent: -999px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+
+    /*        transition: all 0.4s ease;*/
+    z-index: 999999999999;
+        transform: all 1s ease;
+    /*    margin-bottom:10px;*/
+
+}
+
+.nav-toggle:before {
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+    font-size: 30px;
+    text-transform: none;
+    position: absolute;
+
+    content: "\f0c9";
+    /* unicode for the icon itself */
+
+    text-indent: 0;
+    text-align: center;
+    line-height: 60px;
+    speak: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+            transition: all 1s ease;
+}
+
+.icon.nav-toggle:hover {
+    /*      transform: rotate(-360deg);*/
+    color: slategrey;
+    /*    transform: all 1s ease;*/
+}
+
+.icon.nav-toggle.active::before {
+/*    background-image: urlimageimageimageimageimage()()()()()()ur*/
+    content: "\f550";
+/*    font-weight: 100;*/
+}
+
+
+
+
+
+/*<i class="fa-regular fa-bars"></i>*/
+
+
+
+
+
+
+
+
+
+
+/*FONTS*/
+/*
+    Dunbar Low Hairline
+    font-family: dunbar-low, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+
+    Dunbar Low Extra Light
+    font-family: dunbar-low, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+
+    Dunbar Low Light
+    font-family: dunbar-low, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+
+    Dunbar Low Book
+    font-family: dunbar-low, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    Dunbar Low Regular
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+    Dunbar Low Medium
+    font-family: dunbar-low, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    Dunbar Low Bold
+    font-family: dunbar-low, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    Dunbar Low Hairline Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+
+
+    Dunbar Low Extra Light Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+
+    Dunbar Low Light Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+
+    Dunbar Low Book Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+
+    Dunbar Low Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    Dunbar Low Medium Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+    Dunbar Low Bold Italic
+    font-family: dunbar-low, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+    Dunbar Tall Hairline
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+
+    Dunbar Tall Extra Light
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+
+    Dunbar Tall Light
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+
+    Dunbar Tall Book
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    Dunbar Tall Regular
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+    Dunbar Tall Medium
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    Dunbar Tall Bold
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    Dunbar Tall Extra Bold
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+    Dunbar Tall Ultra
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+
+    Dunbar Tall Hairline Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+
+
+    Dunbar Tall Extra Light Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+
+    Dunbar Tall Light Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+
+    Dunbar Tall Book Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+
+    Dunbar Tall Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    Dunbar Tall Medium Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+    Dunbar Tall Bold Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+    Dunbar Tall Extra Bold Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+
+
+    Dunbar Tall Ultra Italic
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+
+    Dunbar Text Regular
+    font-family: dunbar-text, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+    Dunbar Text Medium
+    font-family: dunbar-text, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    Dunbar Text Bold
+    font-family: dunbar-text, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    Dunbar Text Extra Bold
+    font-family: dunbar-text, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+    Dunbar Text Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+
+
+    Dunbar Text Medium Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+
+
+    Dunbar Text Bold Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+    Dunbar Text Extra Bold Italic
+    font-family: dunbar-text, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+
+
+
+*/
